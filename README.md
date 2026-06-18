@@ -11,19 +11,6 @@ This project benchmarks a progression of NLP architectures on the **Named Entity
 
 ---
 
-## Repository Structure
-
-```
-NER-from-BiLSTM-to-Tiny-BERT/
-├── 1_BiLSTM_NER.ipynb           # Baseline: BiLSTM with word/char embeddings
-├── 2_BiLSTM_CRF_NER.ipynb       # BiLSTM + CRF for globally consistent tagging
-├── 3_BERT_NER.ipynb             # Fine-tuned BERT for token classification
-├── 4_TinyBERT_NER.ipynb         # Knowledge-distilled TinyBERT
-└── utils/                       # Shared preprocessing and evaluation utilities
-```
-
----
-
 ## Models
 
 ### 1. BiLSTM
