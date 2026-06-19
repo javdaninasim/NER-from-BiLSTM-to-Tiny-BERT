@@ -360,7 +360,7 @@ $$\text{Precision} = \frac{TP}{TP+FP}, \quad \text{Recall} = \frac{TP}{TP+FN}, \
 
 ---
 
-### 📞 Course Information
+### ℹ️ Course Information
 
 | Detail | Value |
 | :--- | :--- |
@@ -371,15 +371,6 @@ $$\text{Precision} = \frac{TP}{TP+FP}, \quad \text{Recall} = \frac{TP}{TP+FN}, \
 | **Assignment** | Practical Assignment 5 - NLP |
 | **Dataset** | OntoNotes5 (English NER) |
 | **Format** | Jupyter Notebook (hands-on lab) |
-
----
-
-### 📜 License & Attribution
-
-This repository contains course materials from **Sharif University of Technology**.
- 
-**GitHub:** [@javdaninasim](https://github.com/javdaninasim)  
-**LinkedIn:** [Nasim Javdani](https://linkedin.com/in/nasim-javdani-810a9932a)
 
 ---
 
