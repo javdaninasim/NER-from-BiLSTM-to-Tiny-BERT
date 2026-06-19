@@ -377,15 +377,12 @@ $$\text{Precision} = \frac{TP}{TP+FP}, \quad \text{Recall} = \frac{TP}{TP+FN}, \
 ### 📜 License & Attribution
 
 This repository contains course materials from **Sharif University of Technology**.
-
-**Author:** Nasim Javdani  
-**Prepared by:** Sina Bayrami  
+ 
 **GitHub:** [@javdaninasim](https://github.com/javdaninasim)  
 **LinkedIn:** [Nasim Javdani](https://linkedin.com/in/nasim-javdani-810a9932a)
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=2E86C1&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0096FF&height=100&section=footer" width="100%"/>
 </div>
-```
