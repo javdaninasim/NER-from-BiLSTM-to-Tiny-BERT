@@ -371,9 +371,6 @@ $$\text{Precision} = \frac{TP}{TP+FP}, \quad \text{Recall} = \frac{TP}{TP+FN}, \
 | **Assignment** | Practical Assignment 5 - NLP |
 | **Dataset** | OntoNotes5 (English NER) |
 | **Format** | Jupyter Notebook (hands-on lab) |
-
----
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0096FF&height=100&section=footer" width="100%"/>
 </div>
