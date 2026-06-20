@@ -179,23 +179,6 @@ NER-from-BiLSTM-to-Tiny-BERT/
 
 ---
 
-### 📊 Expected Results
-
-| Model | Params | F1 Score | Training Time | Notes |
-| :--- | ---: | ---: | ---: | :--- |
-| BiLSTM | ~5M | Baseline | Fast | Classical strong baseline |
-| BiLSTM+Attention | ~5M | ↑ Minor | Fast | Modest improvement |
-| Pure Attention | ~5M | ↓ Significant | Fast | Importance of position |
-| + Positional Encoding | ~5M | ↑ Recover | Fast | Position matters! |
-| Multi-Head (4H) | ~5M | ↑ Better | Fast | Specialization helps |
-| Transformer Stack | ~5-10M | ↑↑ Good | Medium | Depth + optimization |
-| TinyBERT (random) | ~14.5M | Medium | Medium | No pretraining benefit |
-| TinyBERT (MLM) | ~14.5M | ↑↑ Better | Medium-Fast | Pretraining helps |
-| TinyBERT (MLM+NSP) | ~14.5M | ↑↑↑ Best | Medium-Fast | Multi-task pretraining |
-| DistilBERT (pretrained) | ~67M | ↑↑↑↑ Excellent | Slow | Large-scale pretraining |
-| BERT-base (pretrained) | ~110M | ↑↑↑↑↑ SOTA | Slow | Full-scale pretraining |
-
----
 
 ### 🎓 Learning Outcomes by Part
 
@@ -227,29 +210,6 @@ NER-from-BiLSTM-to-Tiny-BERT/
 <br>
 
 > **Core Libraries:** `torch` ⬩ `transformers` ⬩ `datasets` ⬩ `seqeval` ⬩ `matplotlib` ⬩ `tqdm`
-
----
-
-### 📥 Installation & Setup
-
-```bash
-# Clone repository
-git clone https://github.com/javdaninasim/NER-from-BiLSTM-to-Tiny-BERT.git
-cd NER-from-BiLSTM-to-Tiny-BERT
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install torch transformers datasets seqeval jupyter matplotlib tqdm
-
-# (Optional) Install accelerate for faster training
-pip install accelerate
-
-# Launch notebook
-jupyter notebook code.ipynb
-```
 
 ---
 
